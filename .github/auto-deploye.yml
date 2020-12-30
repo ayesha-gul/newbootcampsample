@@ -31,4 +31,4 @@ jobs:
       - name: installing surge
         run:  npm install --global surge
       - name: deploying using surge
-        run:  surge ./ sofia-bootcamp.surge.sh --token ${{ secrets.PROJECT_TOKEN }}
+        run: surge ./ sofia-bootcamp.surge.sh --token ${{ secrets.PROJECT_TOKEN }}
